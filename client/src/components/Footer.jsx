@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} OtakuZoneFlix - Todos os direitos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Universo Otaku - Todos os direitos reservados.</p>
                 </div>
             </div>
             <style>{`

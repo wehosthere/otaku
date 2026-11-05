@@ -51,7 +51,7 @@ const Navbar = () => {
                     <Menu size={24} />
                 </button>
                 
-                <Link to="/" className="logo">OTAKUZONE<span>FLIX</span></Link>
+                <Link to="/" className="logo">UNIVERSO <span>OTAKU</span></Link>
                 
                 <div className="nav-desktop-links">
                     <Link to="/">Início</Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
             {/* ── Mobile Sidebar Menu ── */}
             <div className={`mobile-sidebar ${mobileMenuOpen ? 'open' : ''}`} onClick={(e) => e.stopPropagation()}>
                 <div className="sidebar-header">
-                    <Link to="/" className="logo" onClick={() => setMobileMenuOpen(false)}>OTAKUZONE<span>FLIX</span></Link>
+                    <Link to="/" className="logo" onClick={() => setMobileMenuOpen(false)}>UNIVERSO <span>OTAKU</span></Link>
                     <button className="close-sidebar" onClick={() => setMobileMenuOpen(false)}><X size={28} /></button>
                 </div>
                 <div className="sidebar-links">

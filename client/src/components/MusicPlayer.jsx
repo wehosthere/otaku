@@ -21,7 +21,7 @@ const MusicPlayer = () => {
 
     const handleDownload = async () => {
         const fileUrl = "/Lil Matimbe feat Vibe - otaku.mp3.mpeg";
-        const fileName = "OtakuZone - Trilha Sonora.mp3";
+        const fileName = "Universo Otaku - Trilha Sonora.mp3";
         
         setIsDownloading(true);
         setDownloadProgress(0);
@@ -72,7 +72,7 @@ const MusicPlayer = () => {
                 onEnded={() => setIsPlaying(false)}
             />
             
-            <div className={`music-btn ${isPlaying ? 'playing' : ''}`} onClick={togglePlay} title="Trilha OtakuZone">
+            <div className={`music-btn ${isPlaying ? 'playing' : ''}`} onClick={togglePlay} title="Trilha Universo Otaku">
                 <div className="music-icon-wrapper">
                     {isPlaying ? (
                         <div className="nav-visualizer">

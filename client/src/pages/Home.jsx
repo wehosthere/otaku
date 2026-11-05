@@ -226,7 +226,7 @@ const Home = () => {
 
                         {animes.length > 0 && (
                             <div className="row-container">
-                                <h2 className="row-title">Novidades no OtakuZone</h2>
+                                <h2 className="row-title">Novidades no Universo Otaku</h2>
                                 <div className="row-scroll">
                                     {animes.slice().reverse().slice(0, 10).map(anime => (
                                         <Link to={`/anime/${anime._id}`} key={`new-${anime._id}`} className="anime-card">
@@ -344,11 +344,11 @@ const Home = () => {
                                 </div>
                                 <div className="about-text">
                                     <div className="badge">SOBRE NÓS</div>
-                                    <h2>Bem-vindo à Família OtakuZone!</h2>
+                                    <h2>Bem-vindo à Família Universo Otaku!</h2>
                                     <p>
                                         Ser Otaku é mais do que apenas assistir anime; é uma paixão por contar histórias, 
                                         conexão com personagens e uma cultura vibrante que atravessa fronteiras. 
-                                        Aqui na <strong>OtakuZoneFlix</strong>, criamos um espaço onde cada fã moçambicano 
+                                        Aqui no <strong>Universo Otaku</strong>, criamos um espaço onde cada fã moçambicano 
                                         pode encontrar seu universo favorito com qualidade premium.
                                     </p>
                                     <p>

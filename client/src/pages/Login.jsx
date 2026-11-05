@@ -33,7 +33,7 @@ const Login = () => {
                     </div>
                     <div style={{ textAlign: 'right', marginBottom: '20px' }}>
                         <a 
-                            href={`https://wa.me/258842718131?text=${encodeURIComponent(`Olá suporte OtakuZoneFlix, esqueci minha senha. Meu email é: ${email}`)}`} 
+                            href={`https://wa.me/258842718131?text=${encodeURIComponent(`Olá suporte Universo Otaku, esqueci minha senha. Meu email é: ${email}`)}`} 
                             target="_blank" 
                             rel="noopener noreferrer"
                             style={{ color: '#737373', fontSize: '0.85rem', textDecoration: 'none' }}

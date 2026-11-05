@@ -30,7 +30,7 @@ const Mangas = () => {
             <div className="mangas-hero">
                 <div className="container">
                     <h1>Explore o Universo de Mangás</h1>
-                    <p>Leia suas histórias favoritas, do clássico ao moderno, direto na OtakuZone.</p>
+                    <p>Leia suas histórias favoritas, do clássico ao moderno, direto no Universo Otaku.</p>
                 </div>
             </div>
 

@@ -1,4 +1,4 @@
-# OtakuZoneFlix
+# Universo Otaku
 
 Plataforma premium de streaming de animes com foco em venda de acessos por temporadas, inspirada na interface da Netflix.
 

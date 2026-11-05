@@ -1,5 +1,5 @@
 {
-  "name": "otakuzoneflix-monorepo",
+  "name": "universo-otaku-monorepo",
   "private": true,
   "workspaces": [
     "client",
