@@ -61,7 +61,7 @@ app.use('/api', apiRouter);
 app.use('/', apiRouter);
 
 const PORT = process.env.PORT || 5000;
-if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+if (require.main === module || !process.env.VERCEL) {
     app.listen(PORT, '0.0.0.0', () => console.log(`Server running on port ${PORT}`));
 }
 
